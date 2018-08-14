@@ -1,0 +1,54 @@
+.home
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    align-content: center
+    background: linear-gradient(to left, rgb(76,212,227) 0%, rgb(62,105,254) 100%)
+    padding-top: 65px
+    &__description
+        padding-top: 120px
+        margin-left: 60px 
+        width: 540px
+        position: relative
+        font-family: 'Poppins', Arial, sans-serif
+    &__slogan
+        color: white
+        font-size: 30px
+        font-weight: bold
+        font-weight: 700
+        line-height: 1.25em
+    &__text
+        color: white
+        font-size: 14px
+        font-weight: 300
+        margin-bottom: 30px
+        margin-top: 10px
+        position: absolute
+        width: 540px
+    &__image
+        padding-bottom: 15px
+    &__nav
+        display: flex
+        flex-flow: column nowrap
+        text-align: center
+        position: fixed
+        font-family: $fontfamilyPoppins
+        top: 57px
+        right: -199px
+        transition:  0.5s ease 0s
+        &-item
+            color: white
+            font-size: 20px
+            font-weight: 500
+            border: 2px solid white
+            padding: 6px 10px
+            cursor: pointer
+            &:hover
+                background-color: white
+                color: rgb(76,212,227)
+        &-image
+            width: 30px
+            margin-right: 20px
+            
+
+        
